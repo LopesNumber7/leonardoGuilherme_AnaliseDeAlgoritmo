@@ -1,0 +1,3 @@
+Análise de Desempenho Aula2
+
+A busca sequencial realizada em um vetor de 10.000.000 de elementos apresentou um tempo médio de aproximadamente 8 ms. Esse resultado mostra que, mesmo sendo um algoritmo simples com complexidade O(n), o desempenho pode ser satisfatório quando os dados estão em memória. Porém, por depender do tamanho do vetor, esse tempo tende a aumentar caso o elemento esteja nas últimas posições ou não exista, o que torna o método menos eficiente em cenários maiores ou com muitas buscas repetidas.
